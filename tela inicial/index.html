@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Dantas</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+    <nav>
+       
+        <a href="#home">Home</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+        <a href="#localizacao">Localização</a>
+    </nav>
+
+    <div class="container" id="home">
+        <img src="logo2.png" alt="Logo Espaço Dantas" class="logo">
+        <h1>ESPAÇO DANTAS</h1>
+        <p>Eventos e Lazer</p>
+    </div>
+    
+
+    <div class="section" id="piscina">
+        <h2>Piscinas</h2>
+        <img src="piscina.png" alt="piscinas do Espaço Dantas">
+        <p>Nosso espaço conta com uma ampla piscina para eventos ao ar livre, ideal para festas e confraternizações.</p>
+    </div>
+
+    <div class="section" id="churrasqueira">
+        <h2>Churrasqueiras</h2>
+        <img src="churrasqueira.jpg" alt="churrasqueira do Espaço Dantas">
+        <p>Área de churrasqueiras moderna, equipada para você e seus convidados aproveitarem ao máximo.</p>
+    </div>
+
+    <div class="section" id="eventos">
+        <h2>Espaços para Eventos</h2>
+        <img src="salão.png" alt="Espaços de eventos do Espaço Dantas">
+        <p>Com áreas verdes e cobertas, nosso espaço é perfeito para casamentos, aniversários e eventos corporativos.</p>
+    </div>
+
+    <div class="container" id="contato">
+        <h1>CONTATE-NOS</h1>
+        
+        <div class="contact-buttons">
+            <button>Email</button>
+            <button>WhatsApp</button>
+        </div>
+
+        <div class="form-container">
+            <form action="/enviar" method="POST">
+                <input type="text" name="nome" placeholder="Nome *" required>
+                <input type="email" name="email" placeholder="Email *" required>
+                <input type="tel" name="telefone" placeholder="Telefone">
+                <input type="text" name="tipo_evento" placeholder="Tipo de evento">
+                <input type="date" name="data" placeholder="Data">
+                <input type="number" name="num_pessoas" placeholder="Nº de pessoas">
+                <textarea name="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="map-container" id="localizacao">
+            <h2>Localização</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61335.652399726874!2d-47.885083550000004!3d-16.092541199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598fb253701997%3A0xfc2fa3db7d70d5de!2sCidade%20Ocidental%2C%20GO!5e0!3m2!1spt-BR!2sbr!4v1727408401238!5m2!1spt-BR!2sbr"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Espaço Dantas - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
