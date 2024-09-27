@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black; /* Fundo preto */
+    color: white; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    padding: 20px; /* Espaçamento interno */
+    height: 100vh; /* Preenche a altura total da tela */
+}
+
+.header {
+    display: flex; /* Usando flexbox para o cabeçalho */
+    align-items: center; /* Alinha logo e título verticalmente */
+}
+
+.logo {
+    margin-right: 30px; /* Espaço entre logo e título */
+}
+
+.logo img {
+    max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+h1 {
+    font-size: 36px; /* Tamanho da fonte do título principal */
+    margin-bottom: 10px; /* Espaçamento entre o título principal e o subtítulo */
+}
+
+h2 {
+    font-size: 24px; /* Tamanho da fonte do subtítulo (menor que h1) */
+    color: #ccc; /* Cor do subtítulo (um cinza mais claro, para contraste) */
+    margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+}
+
+.social-links {
+    margin-top: 20px; /* Espaçamento acima dos links sociais */
+}
+
+.social-links a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    margin-right: 20px; /* Espaço entre os links */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
