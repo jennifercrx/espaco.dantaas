@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background:url(/img/headerBGestilizado.png);
+     /* Fundo preto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Preenche a altura total da tela */
+}
+
+.logo {
+    margin-bottom: 20px; /* Espaço entre a logo e o formulário */
+}
+
+.logo img {
+    max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+.login-container, .register-container {
+    background-color: #333; /* Fundo do formulário */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados */
+    text-align: center; /* Texto centralizado */
+    width: 300px; /* Largura fixa do formulário */
+}
+
+h2 {
+    color: white; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+label {
+    color: white; /* Cor dos rótulos */
+    display: block; /* Cada rótulo ocupa uma linha */
+    margin: 10px 0 5px; /* Margens para espaçamento */
+}
+
+input {
+    width: 100%; /* Largura total do input */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento abaixo do input */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Cantos arredondados nos inputs */
+}
+
+button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno */
+    background-color:#dbc33c; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Cantos arredondados no botão */
+    cursor: pointer; /* Cursor muda para ponteiro */
+}
+
+
+
+.register-link, .login-link {
+    color: white; /* Cor do texto do link */
+    margin-top: 10px; /* Espaçamento acima do link */
+}
+
+.register-link a, .login-link a {
+    color: #dbc33c; /* Cor do link de cadastro/login */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.register-link a:hover, .login-link a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
